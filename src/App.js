@@ -1,6 +1,6 @@
 import logo from "./logo.svg";
 import "./App.css";
-import StateEx from "./component/StateEx";
+import PropsEx from "./component/PropsEx";
 
 function App() {
     const name = "sungmin";
@@ -13,11 +13,7 @@ function App() {
             <p>{name}</p>
             <a href={naver.url}>{naver.name}</a>
             {/* <Hello /> */}
-            <StateEx />
-            <StateEx />
-            <StateEx />
-            <StateEx />
-            <StateEx />
+            <PropsEx />
         </div>
     );
 }
